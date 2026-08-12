@@ -130,7 +130,7 @@ de l'observation) — à respecter par tous pour travailler en parallèle.
 
 | Membre | Rôle | Périmètre |
 |---|---|---|
-| **Membre 1** | Environnement & données | `env_alara.py`, carte de dose, tests, garde-fou. Livre l'interface en premier. |
+| **Membre 1 : Marieme** | Environnement & données | `env_alara.py`, carte de dose, tests, garde-fou. Livre l'interface en premier. |
 | **Membre 2** | Agent DQN | `dqn.py` : réseau, replay buffer, target network, entraînement. |
 | **Membre 3** | Baselines & évaluation | `baselines.py`, `evaluate.py` : aléatoire, Q-learning, métriques, étude λ. |
 | **Membre 4** | Monitoring & intégration | `monitoring.py`, démo, coordination Git, rapport. |
@@ -153,6 +153,7 @@ Dépendances prévues : `gymnasium`, `numpy`, `matplotlib`, `torch`, `wandb`, et
 
 ## 9. Références
 
+- Cours master 2 IA, *Reinforcement Learning*.
 - Sutton & Barto, *Reinforcement Learning: An Introduction* (2018) — MDP, Q-learning.
 - Mnih et al. (2015), *Human-level control through deep reinforcement learning*, Nature — DQN.
 - CIPR Publication 103 (2007) ; AIEA GSR Part 3 (2014) — radioprotection & principe ALARA.
