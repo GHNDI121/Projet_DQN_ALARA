@@ -1,12 +1,5 @@
-"""
-env_alara.py — Environnement d'évacuation en zone irradiée (principe ALARA)
-===========================================================================
-Membre 1 — étapes 1 (données/physique) + 2 (MDP).
-Conforme à l'interface gelée (voir INTERFACE.md) et à la convention Gymnasium.
+# env_alara.py — Environnement d'évacuation en zone irradiée (principe ALARA)
 
-    obs, info = env.reset()
-    obs, reward, terminated, truncated, info = env.step(action)
-"""
 
 import numpy as np
 import gymnasium as gym
