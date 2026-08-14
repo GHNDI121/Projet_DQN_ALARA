@@ -1,0 +1,59 @@
+# ============================================================
+# .gitignore — Projet ALARA-RL
+# ============================================================
+
+# --- Modèles entraînés (regénérables via train.py, souvent lourds) ---
+*.pt
+*.pth
+best_model.pt
+model_lambda*.pt
+
+
+# --- Figures générées (regénérables) ---
+# Décommente si tu ne veux pas versionner les images produites :
+# carte_dose.png
+# comparaison.png
+# apercu_gradio.png
+
+# --- Weights & Biases (logs locaux) ---
+wandb/
+*.wandb
+
+# --- Cache et fichiers compilés Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Environnements virtuels ---
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Fichiers de configuration / secrets ---
+.env
+*.key
+wandb/settings
+
+# --- IDE et éditeurs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Système d'exploitation ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Fichiers temporaires ---
+*.log
+*.tmp
+*.bak

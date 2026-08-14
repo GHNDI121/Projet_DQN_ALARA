@@ -1,0 +1,8 @@
+# Dépendances du projet ALARA-RL
+gymnasium>=0.29
+numpy>=1.24
+matplotlib>=3.7
+torch>=2.0          # agent DQN (Membre 2)
+wandb>=0.16         # monitoring (Membre 4) — ou tensorboard
+# streamlit>=1.30   # démo optionnelle (Membre 4), décommenter si utilisée
+# gradio>=4.0       # alternative à streamlit
